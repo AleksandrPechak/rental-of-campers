@@ -17,3 +17,4 @@ const ContentList = ({ campers, onRemoveFavourite }) => {
 };
 
 export default ContentList;
+
