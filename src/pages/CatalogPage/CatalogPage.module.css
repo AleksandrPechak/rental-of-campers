@@ -1,0 +1,42 @@
+.loadMore {
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid #47546733;
+  padding: 16px 16px;
+  border-radius: 200px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.loadMore:hover {
+  border: 1px solid #D84343;
+}
+
+.wrapper {
+  padding: 48px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+
