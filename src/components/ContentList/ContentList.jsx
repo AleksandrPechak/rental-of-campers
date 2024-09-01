@@ -1,6 +1,6 @@
 import React from 'react';
-import ContentListItem from '../ContentListItem/ContentlistItem.jsx';
-import css from './Contentlist.module.css';
+import ContentListItem from '../ContentListItem/ContentListItem.jsx';
+import css from './ContentList.module.css';
 
 const ContentList = ({ campers, onRemoveFavourite }) => {
   return (
